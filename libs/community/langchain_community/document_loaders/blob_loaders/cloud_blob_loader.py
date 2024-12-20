@@ -291,6 +291,6 @@ class CloudBlobLoader(BlobLoader):
             data=None,
             mimetype=_mimetype,
             encoding=encoding,
-            path=str(path),
+            path=path,
             metadata=metadata if metadata is not None else {},
         )
